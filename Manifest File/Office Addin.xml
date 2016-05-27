@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--Created:cb85b80c-f585-40ff-8bfc-12ff4d0e34a9-->
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="TaskPaneApp">
+  <Id>82dba519-6401-4abf-8740-37097ca4a6f9</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>ISV Name</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="foo DASHBOARD" />
+  <Description DefaultValue="Use the foo Add-in to generate business reports for sales, purchase and other analytics from foo backend"/>
+  <IconUrl DefaultValue="http://localhost" />
+  <SupportUrl DefaultValue="[deployed in Azure - URL hidden]" />
+  <Hosts>
+    <Host Name="Workbook" />
+  </Hosts>
+  <Requirements>
+    <Sets DefaultMinVersion="1.1">
+      <Set Name="ExcelApi" MinVersion="1.1"/>
+    </Sets>
+  </Requirements>
+  <DefaultSettings>
+    <SourceLocation DefaultValue="[deployed in Azure - URL hidden]"/>
+  </DefaultSettings>
+  <Permissions>ReadWriteDocument</Permissions>
+</OfficeApp>
